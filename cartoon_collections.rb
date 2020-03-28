@@ -1,5 +1,5 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(group)
+  group.each_with_index { |ele, idx| puts "#{idx} #{ele}" } 
 end
 
 def summon_captain_planet# code an argument here
