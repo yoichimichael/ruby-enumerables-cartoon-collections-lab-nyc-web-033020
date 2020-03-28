@@ -1,9 +1,9 @@
 def roll_call_dwarves(group)
-  group.each_with_index { |ele, idx| puts "#{idx + 1} #{ele}" } 
+  group.each_with_index { |ele, idx| puts "#{idx + 1} #{ele}" }
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(words)
+  new_call = words.map { |word| word.capitalize + "!" }
 end
 
 def long_planeteer_calls# code an argument here
